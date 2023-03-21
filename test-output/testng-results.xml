@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="19" started-at="2023-03-14T00:39:27Z" finished-at="2023-03-14T00:39:27Z">
+  <suite name="Default Suite" duration-ms="8119" started-at="2023-03-21T01:09:30Z" finished-at="2023-03-21T01:09:38Z">
     <groups>
     </groups>
-    <test name="TestMavenPrograms" duration-ms="19" started-at="2023-03-14T00:39:27Z" finished-at="2023-03-14T00:39:27Z">
-      <class name="section17.PS1">
-        <test-method status="PASS" signature="beforeRun()[pri:0, instance:section17.PS1@511baa65]" name="beforeRun" is-config="true" duration-ms="7" started-at="2023-03-13T20:39:27Z" finished-at="2023-03-13T20:39:27Z">
+    <test name="TestMavenPrograms" duration-ms="8119" started-at="2023-03-21T01:09:30Z" finished-at="2023-03-21T01:09:38Z">
+      <class name="section5.Locators2">
+        <test-method status="PASS" signature="test()[pri:0, instance:section5.Locators2@2acf57e3]" name="test" duration-ms="8111" started-at="2023-03-20T21:09:30Z" finished-at="2023-03-20T21:09:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeRun -->
-        <test-method status="PASS" signature="testRun()[pri:0, instance:section17.PS1@511baa65]" name="testRun" duration-ms="2" started-at="2023-03-13T20:39:27Z" finished-at="2023-03-13T20:39:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRun -->
-        <test-method status="PASS" signature="AfterRun()[pri:0, instance:section17.PS1@511baa65]" name="AfterRun" is-config="true" duration-ms="0" started-at="2023-03-13T20:39:27Z" finished-at="2023-03-13T20:39:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterRun -->
-      </class> <!-- section17.PS1 -->
+        </test-method> <!-- test -->
+      </class> <!-- section5.Locators2 -->
     </test> <!-- TestMavenPrograms -->
   </suite> <!-- Default Suite -->
 </testng-results>
