@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class DropdownTest {
+public class Locators1 {
     public static void main(String[] args) throws InterruptedException {
         // TODO Auto-generated method stub
         ChromeOptions option = new ChromeOptions();
@@ -19,7 +19,11 @@ public class DropdownTest {
         //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
         driver.get("https://rahulshettyacademy.com/locatorspractice/"); //URL in the browser
+        step2(driver);
 
+    }
+
+    public static void step2(WebDriver driver) throws InterruptedException {
         //driver.findElement(By.id("inputUsername")).sendKeys("rahul");
         driver.findElement(By.cssSelector("input#inputUsername")).sendKeys("rahul");
 
@@ -60,15 +64,6 @@ public class DropdownTest {
         Thread.sleep(3000);
         System.out.println(driver.findElement(By.cssSelector("p.error")).getText());
         //driver.findElement(By.xpath("//div[contains(@class,'pwd')]/a")).click();
-
-
     }
-
-    //a[@value='MAA']  - Xpath for chennai
-    //a[@value='BLR']
-    //Thread.sleep(2000);
-    //driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
-        /*driver.findElement(By.xpath("//div[@id='destinationStation1_CTNR'] //a[@value='MAA']")).click();
-        driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight.ui-state-active")).click();*/
 
 }
